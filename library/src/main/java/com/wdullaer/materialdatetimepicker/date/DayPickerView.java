@@ -123,8 +123,8 @@ public abstract class DayPickerView extends RecyclerView implements OnDateChange
     protected void setUpRecyclerView() {
         setVerticalScrollBarEnabled(false);
         setFadingEdgeLength(0);
-        GravitySnapHelper helper = new GravitySnapHelper(Gravity.TOP);
-        helper.attachToRecyclerView(this);
+        // GravitySnapHelper helper = new GravitySnapHelper(Gravity.TOP);
+        // helper.attachToRecyclerView(this);
     }
 
     public void onChange() {
