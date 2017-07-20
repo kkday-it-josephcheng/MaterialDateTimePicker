@@ -212,10 +212,10 @@ public abstract class DayPickerView extends RecyclerView implements OnDateChange
             setMonthDisplayed(mTempDay);
             mPreviousScrollState = RecyclerView.SCROLL_STATE_DRAGGING;
             if (animate) {
-                smoothScrollToPosition(position);
+                // smoothScrollToPosition(position);
                 return true;
             } else {
-                postSetSelection(position);
+                // postSetSelection(position);
             }
         } else if (setSelected) {
             setMonthDisplayed(mSelectedDay);
